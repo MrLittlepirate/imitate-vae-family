@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- 设置logo  -->
+    <img src="./assets/vae+logo.png">
     <router-view/>
   </div>
 </template>
