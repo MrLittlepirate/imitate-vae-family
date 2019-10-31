@@ -9,6 +9,9 @@ import store from './store'     /** 引入vuex */
 import ElementUI from 'element-ui';   /** 引入 Element */
 import 'element-ui/lib/theme-chalk/index.css'; /** 引入Element样式文件 */
 
+// 引入自定义指令
+import '@/directive/index.js'
+
 Vue.use(ElementUI); /** 使用 ElementUI*/
 
 Vue.config.productionTip = false
